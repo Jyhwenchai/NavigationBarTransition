@@ -132,8 +132,8 @@ extension YXViewController {
 }
 
 extension YXViewController {
-    var isModalPageSheet: Bool {
-        return (navigationController!.modalPresentationStyle == .pageSheet && !navigationController!.viewControllers.contains(self))
+    private var isModalPageSheet: Bool {
+        return (navigationController!.modalPresentationStyle == .pageSheet && navigationController!.viewControllers.contains(self))
     }
     
 }

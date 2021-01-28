@@ -72,8 +72,8 @@
 		1815DE1A235DE0800011AC79 /* NavigationBarTransition */ = {
 			isa = PBXGroup;
 			children = (
-				183A929A23609186005271A0 /* CustomNavigationBar */,
-				18C49D5923609D9600F03F93 /* BaseStyle */,
+				183A929A23609186005271A0 /* Sources */,
+				18C49D5923609D9600F03F93 /* Example */,
 				1815DE1B235DE0800011AC79 /* AppDelegate.swift */,
 				1815DE1F235DE0800011AC79 /* ViewController.swift */,
 				1815DE21235DE0800011AC79 /* Main.storyboard */,
@@ -84,7 +84,7 @@
 			path = NavigationBarTransition;
 			sourceTree = "<group>";
 		};
-		183A929A23609186005271A0 /* CustomNavigationBar */ = {
+		183A929A23609186005271A0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				1815DE2F235DE0C10011AC79 /* YXViewController.swift */,
@@ -92,10 +92,10 @@
 				1815DE35235DE3290011AC79 /* YXNavigationBar.swift */,
 				66B66ACB235ED01600E5177F /* YXConstant.swift */,
 			);
-			path = CustomNavigationBar;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		18C49D5923609D9600F03F93 /* BaseStyle */ = {
+		18C49D5923609D9600F03F93 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				18C49D5723609A8000F03F93 /* BaseStyleViewController.swift */,
@@ -104,7 +104,7 @@
 				1832CB212365373B00FE2E6D /* PushViewController.swift */,
 				18EA45ED2365BDB400C60241 /* DisableBarViewController.swift */,
 			);
-			name = BaseStyle;
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = ilosic;
 				TargetAttributes = {
 					1815DE17235DE0800011AC79 = {
@@ -262,6 +262,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -322,6 +323,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -358,7 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTH85SS4GJ;
 				INFOPLIST_FILE = NavigationBarTransition/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTH85SS4GJ;
 				INFOPLIST_FILE = NavigationBarTransition/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
