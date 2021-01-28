@@ -57,7 +57,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucL-hI-4oV">
-                                                    <rect key="frame" x="143" y="29.5" width="42" height="21"/>
+                                                    <rect key="frame" x="143" y="29.5" width="256" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -65,6 +65,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="wdl-5W-cBJ" firstAttribute="centerY" secondItem="0n5-eS-mzW" secondAttribute="centerY" id="2xh-fU-P5v"/>
+                                                <constraint firstAttribute="trailing" secondItem="ucL-hI-4oV" secondAttribute="trailing" constant="15" id="89B-pg-TCZ"/>
                                                 <constraint firstItem="wdl-5W-cBJ" firstAttribute="leading" secondItem="0n5-eS-mzW" secondAttribute="leading" constant="20" id="nhW-ak-MwK"/>
                                                 <constraint firstItem="ucL-hI-4oV" firstAttribute="leading" secondItem="wdl-5W-cBJ" secondAttribute="trailing" constant="23" id="uCv-qJ-s22"/>
                                                 <constraint firstItem="ucL-hI-4oV" firstAttribute="centerY" secondItem="wdl-5W-cBJ" secondAttribute="centerY" id="zys-YP-vwd"/>
@@ -291,6 +292,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Ton-Cm-fCg" firstAttribute="centerY" secondItem="zZf-1y-G8a" secondAttribute="centerY" id="eg3-j5-AJh"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ton-Cm-fCg" secondAttribute="trailing" constant="20" symbolic="YES" id="obi-Jb-TeH"/>
                                                 <constraint firstItem="Ton-Cm-fCg" firstAttribute="leading" secondItem="zZf-1y-G8a" secondAttribute="leadingMargin" id="qPX-QL-flW"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -315,6 +317,7 @@
                                             <constraints>
                                                 <constraint firstItem="NGg-Va-uJI" firstAttribute="centerY" secondItem="2vB-0M-vaT" secondAttribute="centerY" id="BEu-mc-Ff9"/>
                                                 <constraint firstItem="NGg-Va-uJI" firstAttribute="leading" secondItem="2vB-0M-vaT" secondAttribute="leadingMargin" id="OU8-AN-WU2"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NGg-Va-uJI" secondAttribute="trailing" constant="20" symbolic="YES" id="wfV-ue-Lnv"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -336,6 +339,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lyF-6s-Rql" secondAttribute="trailing" constant="20" symbolic="YES" id="NSJ-Xa-9qF"/>
                                                 <constraint firstItem="lyF-6s-Rql" firstAttribute="leading" secondItem="fhx-i5-rPb" secondAttribute="leadingMargin" id="TqY-LR-DtF"/>
                                                 <constraint firstItem="lyF-6s-Rql" firstAttribute="centerY" secondItem="fhx-i5-rPb" secondAttribute="centerY" id="yWe-Jh-wm1"/>
                                             </constraints>
@@ -359,6 +363,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JCF-cH-yBW" secondAttribute="trailing" constant="20" symbolic="YES" id="Jlt-M9-cfj"/>
                                                 <constraint firstItem="JCF-cH-yBW" firstAttribute="leading" secondItem="m1u-sz-1fl" secondAttribute="leadingMargin" id="OoD-Z1-meP"/>
                                                 <constraint firstItem="JCF-cH-yBW" firstAttribute="centerY" secondItem="m1u-sz-1fl" secondAttribute="centerY" id="UwJ-Qh-jWX"/>
                                             </constraints>
@@ -421,6 +426,7 @@
                                             <constraints>
                                                 <constraint firstItem="3Gj-zH-nSb" firstAttribute="leading" secondItem="Xff-ru-e84" secondAttribute="leading" constant="20" id="HKn-i1-8ts"/>
                                                 <constraint firstItem="3Gj-zH-nSb" firstAttribute="centerY" secondItem="Xff-ru-e84" secondAttribute="centerY" id="eTR-XO-ULA"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tSc-tb-ucp" secondAttribute="trailing" constant="20" symbolic="YES" id="fzB-ys-MoA"/>
                                                 <constraint firstItem="tSc-tb-ucp" firstAttribute="centerY" secondItem="3Gj-zH-nSb" secondAttribute="centerY" id="qaF-xl-NS4"/>
                                                 <constraint firstItem="tSc-tb-ucp" firstAttribute="leading" secondItem="3Gj-zH-nSb" secondAttribute="trailing" constant="23" id="zdK-al-w1Z"/>
                                             </constraints>
@@ -549,32 +555,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mDh-Fg-Qwm">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="ggt-gl-ae4">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ggt-gl-ae4" id="VYy-Th-oJL">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="F6Q-ZV-48A">
-                                        <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F6Q-ZV-48A" id="wfY-p2-oKL">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="ior-V6-ppf">
-                                        <rect key="frame" x="0.0" y="115" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ior-V6-ppf" id="Jxk-P0-2cI">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                                 <sections/>
                             </tableView>
                         </subviews>
